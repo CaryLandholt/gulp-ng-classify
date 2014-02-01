@@ -1,0 +1,30 @@
+{
+	"name": "gulp-ng-classify",
+	"version": "0.1.0",
+	"description": "Compile CoffeeScript classes to AngularJS modules",
+	"author": {
+		"name": "Cary Landholt",
+		"email": "cary@landholt.com",
+		"url": "https://github.com/CaryLandholt"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CaryLandholt/gulp-ng-classify"
+	},
+	"keywords": [
+		"gulpplugin",
+		"angular",
+		"angularjs",
+		"class",
+		"coffeescript",
+		"module"
+	],
+	"main": "index",
+	"dependencies": {
+		"ng-classify": "~0.1.1"
+	},
+	"engines": {
+		"node": "0.8.x",
+		"npm": "1.1.x"
+	}
+}
