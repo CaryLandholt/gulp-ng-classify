@@ -22,7 +22,7 @@
 	"main": "index",
 	"dependencies": {
 		"event-stream": "~3.1.0",
-		"ng-classify": "~0.1.1"
+		"ng-classify": "~0.1.2"
 	},
 	"engines": {
 		"node": ">=0.10.0"
