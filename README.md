@@ -1,25 +1,26 @@
-# [gulp](https://github.com/wearefractal/gulp)-ng-classify  [![Package Version][package-image]][package-url] [![Build Status][build-image]][build-url] [![Dependency Status][dependencies-image]][dependencies-url]
-
+# [gulp](https://github.com/wearefractal/gulp)-ng-classify [![Version][version-image]][version-url] [![Build Status][build-image]][build-url] [![Dependency Status][dependencies-image]][dependencies-url] [![devDependency Status][dev-dependencies-image]][dev-dependencies-url]
 > Convert CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)
 
-## Table of Contents
 
-* [Install](#install)
+## Table of Contents
+* [Installing](#installing)
 * [Examples](#examples)
-    - [CoffeeScript](#coffeescript)
-    - [JavaScript](#javascript)
+	- [CoffeeScript](#coffeescript)
+	- [JavaScript](#javascript)
 * [API](#api)
 * [Contributing](#contributing)
+* [Changelog](#changelog)
+* [License](#license)
 
-## Install
 
+## Installing
 Install with [npm](https://npmjs.org/package/gulp-ng-classify)
-
 ```shell
 npm install --save-dev gulp-ng-classify
 ```
 
 ## Examples
+
 
 ### CoffeeScript
 ```coffee
@@ -32,7 +33,9 @@ gulp.task 'default', ->
 		.pipe gulp.dest 'dist'
 ```
 
+
 ### JavaScript
+
 
 ```javascript
 var gulp = require('gulp');
@@ -45,28 +48,39 @@ gulp.task('default', function () {
 });
 ```
 
-## API
 
+## API
 See the [ng-classify docs](https://github.com/CaryLandholt/ng-classify)
+
 
 ### ngClassify(options)
 
-#### options
 
-Type: `Object`  
+#### options
+Type: `Object`
 [ng-classify API](https://github.com/CaryLandholt/ng-classify#api)
 
+
 ## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-In lieu of a formal styleguide, take care to maintain the existing coding style.  Add unit tests for any new or changed functionality. Lint and test your code.
 
-**Pull Requests are welcome!**
+## Changelog
+See [CHANGELOG.md](CHANGELOG.md)
 
-[package-url]: https://npmjs.org/package/gulp-ng-classify
-[package-image]: https://badge.fury.io/js/gulp-ng-classify.png
 
-[build-url]: http://travis-ci.org/CaryLandholt/gulp-ng-classify
-[build-image]: https://secure.travis-ci.org/CaryLandholt/gulp-ng-classify.png
+## License
+See [LICENSE](LICENSE)
 
-[dependencies-url]: https://david-dm.org/CaryLandholt/gulp-ng-classify
-[dependencies-image]: https://david-dm.org/CaryLandholt/gulp-ng-classify.png?theme=shields.io
+
+[build-image]:            https://secure.travis-ci.org/CaryLandholt/gulp-ng-classify.svg
+[build-url]:              http://travis-ci.org/CaryLandholt/gulp-ng-classify
+
+[dependencies-image]:     https://david-dm.org/CaryLandholt/gulp-ng-classify.svg
+[dependencies-url]:       https://david-dm.org/CaryLandholt/gulp-ng-classify
+
+[dev-dependencies-image]: https://david-dm.org/CaryLandholt/gulp-ng-classify/dev-status.svg
+[dev-dependencies-url]:   https://david-dm.org/CaryLandholt/gulp-ng-classify#info=devDependencies
+
+[version-image]:          https://badge.fury.io/js/gulp-ng-classify.svg
+[version-url]:            https://npmjs.org/package/gulp-ng-classify

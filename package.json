@@ -11,6 +11,7 @@
 		"type": "git",
 		"url": "https://github.com/CaryLandholt/gulp-ng-classify"
 	},
+	"main": "index",
 	"keywords": [
 		"gulpplugin",
 		"angular",
@@ -19,12 +20,17 @@
 		"coffeescript",
 		"module"
 	],
-	"main": "index",
-	"dependencies": {
-		"event-stream": "~3.1.0",
-		"ng-classify": "~0.4.0"
-	},
 	"engines": {
 		"node": ">=0.10.0"
+	},
+	"dependencies": {
+		"event-stream": "~3.1.2",
+		"ng-classify": "~0.4.2"
+	},
+	"devDependencies": {
+		"coffee-script": "~1.7.1",
+		"conventional-changelog": "~0.0.8",
+		"gulp": "~3.6.0",
+		"gulp-util": "~2.2.14"
 	}
 }
