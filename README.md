@@ -15,8 +15,8 @@
 
 ## Installing
 Install with [npm](https://npmjs.org/package/gulp-ng-classify)
-```shell
-npm install --save-dev gulp-ng-classify
+```bash
+$ npm install --save-dev gulp-ng-classify
 ```
 
 ## Examples
