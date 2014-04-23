@@ -1,4 +1,4 @@
-# [gulp](https://github.com/wearefractal/gulp)-ng-classify [![Version][version-image]][version-url] [![Build Status][build-image]][build-url] [![Dependency Status][dependencies-image]][dependencies-url] [![devDependency Status][dev-dependencies-image]][dev-dependencies-url]
+# [gulp](https://github.com/wearefractal/gulp)-ng-classify [![Version][version-image]][version-url] [![Build Status][build-image]][build-url] [![Dependency Status][dependencies-image]][dependencies-url] [![License][license-image]][license-url]
 > Convert CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)
 
 
@@ -73,14 +73,14 @@ See [CHANGELOG.md](CHANGELOG.md)
 See [LICENSE](LICENSE)
 
 
-[build-image]:            https://secure.travis-ci.org/CaryLandholt/gulp-ng-classify.svg
+[build-image]:            http://img.shields.io/travis/CaryLandholt/gulp-ng-classify.svg?style=flat
 [build-url]:              http://travis-ci.org/CaryLandholt/gulp-ng-classify
 
-[dependencies-image]:     https://david-dm.org/CaryLandholt/gulp-ng-classify.svg
-[dependencies-url]:       https://david-dm.org/CaryLandholt/gulp-ng-classify
+[dependencies-image]:     http://img.shields.io/gemnasium/CaryLandholt/gulp-ng-classify.svg?style=flat
+[dependencies-url]:       https://gemnasium.com/CaryLandholt/gulp-ng-classify
 
-[dev-dependencies-image]: https://david-dm.org/CaryLandholt/gulp-ng-classify/dev-status.svg
-[dev-dependencies-url]:   https://david-dm.org/CaryLandholt/gulp-ng-classify#info=devDependencies
+[license-image]:          http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]:            LICENSE
 
-[version-image]:          https://badge.fury.io/js/gulp-ng-classify.svg
+[version-image]:          http://img.shields.io/npm/v/gulp-ng-classify.svg?style=flat
 [version-url]:            https://npmjs.org/package/gulp-ng-classify
