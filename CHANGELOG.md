@@ -1,3 +1,12 @@
+<a name="0.5.0"></a>
+## 0.5.0  (2014-05-02)
+
+
+#### Bug Fixes
+
+* **ng-classify:** update to remove regex parsing, use coffee-script nodes ([c025327a](https://github.com/CaryLandholt/gulp-ng-classify/commit/c025327a167b8e70640a9d38a0f5d6c168542227)
+
+
 <a name="0.4.0"></a>
 ## 0.4.0  (2014-02-16)
 
