@@ -1,6 +1,6 @@
 {
 	"name": "gulp-ng-classify",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"description": "Compile CoffeeScript classes to AngularJS modules",
 	"author": {
 		"name": "Cary Landholt",
@@ -24,8 +24,8 @@
 		"node": ">=0.10.0"
 	},
 	"dependencies": {
-		"event-stream": "~3.1.2",
-		"ng-classify": "~0.4.2"
+		"event-stream": "~3.1.5",
+		"ng-classify": "~0.5.0"
 	},
 	"devDependencies": {
 		"coffee-script": "~1.7.1",
