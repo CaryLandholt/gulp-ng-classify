@@ -1,3 +1,12 @@
+<a name="1.0.0"></a>
+## 1.0.0  (2014-05-04)
+
+
+#### Features
+
+* **moduleTypePrefix:** update ng-classify ([84272aa6](https://github.com/CaryLandholt/gulp-ng-classify/commit/84272aa6ae6de84f2cab26f0278e9b447494e5fe))
+
+
 <a name="0.5.0"></a>
 ## 0.5.0  (2014-05-02)
 

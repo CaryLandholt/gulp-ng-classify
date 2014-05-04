@@ -1,4 +1,4 @@
-es = require 'event-stream'
+es         = require 'event-stream'
 ngClassify = require 'ng-classify'
 
 module.exports = (opt) ->
