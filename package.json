@@ -25,7 +25,7 @@
 	},
 	"dependencies": {
 		"event-stream": "~3.1.5",
-		"ng-classify": "~1.0.0"
+		"ng-classify": "~1.0.1"
 	},
 	"devDependencies": {
 		"coffee-script": "~1.7.1",
