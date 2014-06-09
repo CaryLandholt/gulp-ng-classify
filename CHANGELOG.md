@@ -1,3 +1,12 @@
+<a name="1.0.1"></a>
+### 1.0.1  (2014-06-09)
+
+
+#### Bug Fixes
+
+* **index:** add bridge from js to coffee ([9c5f62ff](https://github.com/CaryLandholt/gulp-ng-classify/commit/9c5f62fff77b2f062a805b425378875f87d689c1))
+
+
 <a name="1.0.0"></a>
 ## 1.0.0  (2014-05-04)
 
