@@ -1,3 +1,12 @@
+<a name="1.0.2"></a>
+### 1.0.2  (2014-06-09)
+
+
+#### Bug Fixes
+
+* **dependencies:** make coffee-script a dependency, not dev dependency ([f5ef6e3d](https://github.com/CaryLandholt/gulp-ng-classify/commit/f5ef6e3ddd2ac15ce9bf8ab4c011950e02d02d24))
+
+
 <a name="1.0.1"></a>
 ### 1.0.1  (2014-06-09)
 
