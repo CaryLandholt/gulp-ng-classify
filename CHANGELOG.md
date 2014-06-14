@@ -1,3 +1,15 @@
+## 2.0.0 (2014-06-14)
+
+
+#### Breaking Changes
+
+* ng-classify options.data deprecated
+
+Use gulp-template or another alternative
+
+ ([659bdb20](https://github.com/CaryLandholt/gulp-ng-classify/commit/659bdb20d11db6ad36d536349b6cd6fa30bc55d1))
+
+
 <a name="1.0.2"></a>
 ### 1.0.2  (2014-06-09)
 
