@@ -1,25 +1,20 @@
-# [gulp](https://github.com/wearefractal/gulp)-ng-classify [![Version][version-image]][version-url] [![Build Status][build-image]][build-url] [![Dependency Status][dependencies-image]][dependencies-url] [![License][license-image]][license-url]
-> Convert CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)
+# [gulp](https://github.com/wearefractal/gulp)-ng-classify
+[![License][license-image]][license-url]
+[![Version][version-image]][version-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][dependencies-image]][dependencies-url]
+> Convert CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)  
+> Write less JavaScript.  Write less CoffeeScript.  Write less Angular.
 
 
-## Table of Contents
-* [Installing](#installing)
-* [Examples](#examples)
-	- [CoffeeScript](#coffeescript)
-	- [JavaScript](#javascript)
-* [API](#api)
-* [Contributing](#contributing)
-* [Changelog](#changelog)
-* [License](#license)
-
-
-## Installing
+## Install
 Install with [npm](https://npmjs.org/package/gulp-ng-classify)
 ```bash
-$ npm install --save-dev gulp-ng-classify
+$ npm install gulp-ng-classify
 ```
 
-## Examples
+
+## Usage
 
 
 ### CoffeeScript
@@ -28,7 +23,7 @@ gulp = require 'gulp'
 ngClassify = require 'gulp-ng-classify'
 
 gulp.task 'default', ->
-	gulp.src 'foo.coffee'
+	gulp.src '**/*.coffee'
 		.pipe ngClassify()
 		.pipe gulp.dest 'dist'
 ```
@@ -42,11 +37,22 @@ var gulp = require('gulp');
 var ngClassify = require('gulp-ng-classify');
 
 gulp.task('default', function () {
-	gulp.src('foo.coffee')
+	gulp.src('**/*.coffee')
 		.pipe(ngClassify())
 		.pipe(gulp.dest('dist'));
 });
 ```
+
+
+## Table of Contents
+* [Install](#install)
+* [Usage](#usage)
+	- [CoffeeScript](#coffeescript)
+	- [JavaScript](#javascript)
+* [API](#api)
+* [Contributing](#contributing)
+* [Changelog](#changelog)
+* [License](#license)
 
 
 ## API
@@ -57,7 +63,7 @@ See the [ng-classify docs](https://github.com/CaryLandholt/ng-classify)
 
 
 #### options
-Type: `Object`
+Type: `Object`  
 [ng-classify API](https://github.com/CaryLandholt/ng-classify#api)
 
 
