@@ -64,7 +64,8 @@ See the [ng-classify docs](https://github.com/CaryLandholt/ng-classify)
 
 #### options
 Type: `Object`  
-[ng-classify API](https://github.com/CaryLandholt/ng-classify#api)
+Default:  `undefined`  
+see [ng-classify API](https://github.com/CaryLandholt/ng-classify#api)
 
 
 ## Contributing
