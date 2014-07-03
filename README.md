@@ -37,7 +37,7 @@ var gulp = require('gulp');
 var ngClassify = require('gulp-ng-classify');
 
 gulp.task('default', function () {
-	gulp.src('**/*.coffee')
+	return gulp.src('**/*.coffee')
 		.pipe(ngClassify())
 		.pipe(gulp.dest('dist'));
 });
@@ -63,9 +63,46 @@ See the [ng-classify docs](https://github.com/CaryLandholt/ng-classify)
 
 
 #### options
-Type: `Object`  
+*Optional*  
+Type: `Object` (see [ng-classify API](https://github.com/CaryLandholt/ng-classify#api)) or `Function` (see examples below)  
 Default:  `undefined`  
-see [ng-classify API](https://github.com/CaryLandholt/ng-classify#api)
+
+Dynamically create options via the function callback.
+The function takes in the file object and returns the options.
+```coffee
+gulp = require 'gulp'
+ngClassify = require 'gulp-ng-classify'
+ 
+gulp.task 'default', ->
+	gulp.src '**/*.coffee'
+		.pipe ngClassify (file) ->
+			# use 'admin' as the appName if 'administrator' is found in the file path
+
+			return if file.path.indexOf('administrator') isnt -1
+				{appName: 'admin'}
+
+			{appName: 'app'}
+		.pipe gulp.dest 'dist'
+```
+
+```javascript
+var gulp = require('gulp');
+var ngClassify = require('gulp-ng-classify');
+
+gulp.task('default', function () {
+	return gulp.src('**/*.coffee')
+		.pipe(ngClassify(function (file) {
+			// use 'admin' as the appName if 'administrator' is found in the file path
+
+			if (file.path.indexOf('administrator') !== -1) {
+				return {appName: 'admin'};
+			}
+
+			return {appName: 'app'};
+		}))
+		.pipe(gulp.dest('dist'));
+});
+```
 
 
 ## Contributing

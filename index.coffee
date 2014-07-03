@@ -13,7 +13,9 @@ module.exports = (opt) ->
 		data = ''
 
 		try
-			data = ngClassify str, opt
+			isFunction = opt instanceof Function
+			options    = if isFunction then opt(file) else opt
+			data       = ngClassify str, options
 		catch err
 			return @emit 'error', new Error err
 
