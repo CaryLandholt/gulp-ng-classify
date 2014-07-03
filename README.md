@@ -5,6 +5,8 @@
 [![Dependency Status][dependencies-image]][dependencies-url]
 > Convert CoffeeScript classes to [AngularJS](http://angularjs.org/) modules with [ng-classify](https://github.com/CaryLandholt/ng-classify)  
 > Write less JavaScript.  Write less CoffeeScript.  Write less Angular.
+>
+> Watch the [screencast](https://www.youtube.com/watch?v=28gUTu9vnB4)
 
 
 ## Install
