@@ -1,3 +1,16 @@
+## 3.1.0 (2014-07-02)
+
+
+#### Bug Fixes
+
+* **package.json:** ensure semver compliance ([5cc80e74](https://github.com/CaryLandholt/gulp-ng-classify/commit/5cc80e749cb096d297a6cca6a0de546cb5adb083))
+
+
+#### Features
+
+* **optionsFunction:** options may be set dynamically via a function callback ([ee4de7ea](https://github.com/CaryLandholt/gulp-ng-classify/commit/ee4de7ea7ebdb01ef6b994062515b43d80ffcf19))
+
+
 ## 3.0.0 (2014-06-19)
 
 
