@@ -1,3 +1,13 @@
+## 4.0.0 (2014-08-10)
+
+
+#### Features
+
+* **multipleApps:** add support for multiple apps ([d835bd1d](https://github.com/CaryLandholt/gulp-ng-classify/commit/d835bd1ddb853ed1517f423aed2e7f3b391a4480))
+
+See https://github.com/CaryLandholt/ng-classify#multiple-apps
+
+
 ## 3.1.0 (2014-07-02)
 
 
