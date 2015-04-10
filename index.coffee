@@ -1,5 +1,6 @@
 es         = require 'event-stream'
 ngClassify = require 'ng-classify'
+gutil      = require 'gulp-util'
 
 module.exports = (opt) ->
 	modifyFile = (file) ->
@@ -7,7 +8,7 @@ module.exports = (opt) ->
 			@emit 'data', file
 
 		return if file.isStream()
-			@emit 'error', new Error 'gulp-ngClassify: Streaming not supported'
+			@emit 'error', new gutil.PluginError 'gulp-ng-classify', 'Streaming not supported'
 
 		str = file.contents.toString 'utf8'
 		data = ''
@@ -17,7 +18,8 @@ module.exports = (opt) ->
 			options    = if isFunction then opt(file) else opt
 			data       = ngClassify str, options
 		catch err
-			return @emit 'error', new Error err
+			err.filename = file.path
+			return @emit 'error', new gutil.PluginError 'gulp-ng-classify', err
 
 		file.contents = new Buffer data
 
