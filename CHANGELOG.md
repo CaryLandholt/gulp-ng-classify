@@ -5,7 +5,7 @@ see example below
 
 ```coffee
 .pipe(ngClassify()).on 'error', (err) ->
-  console.error "coffee errror! #{err.message} #{err.filename} line: #{err.location.first_line}"
+  console.error "coffee error! #{err.message} #{err.filename} line: #{err.location.first_line}"
 ```
 
 
