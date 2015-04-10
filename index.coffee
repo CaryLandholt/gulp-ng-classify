@@ -18,6 +18,7 @@ module.exports = (opt) ->
 			options    = if isFunction then opt(file) else opt
 			data       = ngClassify str, options
 		catch err
+			err.filename = file.path
 			return @emit 'error', new gutil.PluginError 'gulp-ng-classify', err
 
 		file.contents = new Buffer data
