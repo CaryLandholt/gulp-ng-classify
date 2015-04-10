@@ -1,3 +1,14 @@
+### 4.0.1 (2015-04-10)
+
+add better error handling  
+see example below
+
+```coffee
+.pipe(ngClassify()).on 'error', (err) ->
+  console.error "coffee errror! #{err.message} #{err.filename} line: #{err.location.first_line}"
+```
+
+
 ## 4.0.0 (2014-08-10)
 
 
